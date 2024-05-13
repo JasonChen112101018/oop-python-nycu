@@ -340,3 +340,10 @@ def test_team_17_coordinate():
     assert c.y == 24
     assert c.distance(origin) == 25
     assert origin.distance(c) == 25
+
+def test_team_17_Fraction():
+    a = lc.Fraction(1,2)
+    assert a.__float__() == 0.5
+    assert a.__str__() == '1/2'
+
+
