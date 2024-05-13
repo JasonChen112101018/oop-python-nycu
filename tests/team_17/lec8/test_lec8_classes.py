@@ -346,4 +346,8 @@ def test_team_17_Fraction():
     assert a.__float__() == 0.5
     assert a.__str__() == '1/2'
 
-
+def test_team_17_Fraction():
+    a = lc.Fraction(3,4)
+    assert a.__float__() == 0.75
+    assert a.__str__() == '3/4'
+ 
